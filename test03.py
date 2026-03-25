@@ -2,7 +2,8 @@
 def sayHello(name):
     return 'Hello, ' + name +'!'
     
-inName = 'Tom'
-lastName = 'Brown'
-print(sayHello(inName + ' ' + lastName))
+<<<<<<< HEAD
+inName = 'Tom Brown'
+# 충돌 수정
+print(sayHello(inName))
 print("main branch에서 새로운 커밋생성")
